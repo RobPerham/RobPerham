@@ -1,0 +1,31 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  padding: none;
+  margin: none;
+  font-family: "Noto Serif JP", serif;
+}
+
+.flex {
+  display: flex;
+}
+.flex-jc-c {
+  justify-content: center;
+}
+.flex-AI-c- {
+  align-items: center;
+}
+
+.header {
+  font-family: 300px;
+  align-items: center;
+}
+.header__menu {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+}
